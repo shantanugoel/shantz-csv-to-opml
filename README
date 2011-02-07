@@ -1,0 +1,19 @@
+shantz-csv-to-opml.pl
+
+Author: Shantanu Goel http://tech.shantanugoel.com http://blog.shantanugoel.com
+
+Usage: shantz-csv-to-opml.pl <input file in csv format> <output opml filename>
+
+Input File Format:
+Each line should be like this:
+<Name of Author>,<bloglink>,<bloglink>...
+e.g.
+Shantanu Goel, http://tech.shantanugoel.com, http://blog.shantanugoel.com
+There can be any number of blogs for any author, if blogs are more than one, then multiple entries for that author will be made in opml file each indexed with increasing number like Shantanu Goel 1, Shantanu Goel 2, etc
+
+Version History:
+0.1 - Initial Version
+
+Visit the script homepage for questions and updates (Also check out other cool stuff)
+
+Script Homepage: http://tech.shantanugoel.com/projects/misc-stuff/shantz-csv-to-opml
